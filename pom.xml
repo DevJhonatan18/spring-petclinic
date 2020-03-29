@@ -13,6 +13,10 @@
     <version>2.2.5.RELEASE</version>
   </parent>
   <name>petclinic</name>
+  
+  <packaging>war</packaging>
+  
+  
 
   <properties>
 
@@ -127,6 +131,14 @@
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
+    
+    <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-tomcat</artifactId>
+     <scope>provided</scope>
+   </dependency>
+
+
   </dependencies>
 
   <build>
